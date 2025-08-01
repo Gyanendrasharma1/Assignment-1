@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Welcome to Laundry Wallah / Laundry Mart.</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <p>Welcome to Laundry Wallah / Laundry Mart, your trusted partner in hassle-free laundry care. We are
+                committed
+                to delivering fresh, clean, and neatly folded clothes with the highest standards of quality and hygiene.
+                Whether it’s your everyday wear, office attire, or delicate fabrics, we treat each item with utmost
+                care.
+                With timely pickup and delivery, affordable pricing, and reliable service, we make laundry day
+                effortless
+                for you. Experience convenience like never before—because your clothes deserve the best.</p>
+        </section>
+        <section id="image-section">
+            <img src="https://i.pinimg.com/736x/11/62/9a/11629a566e8b8c01884fa7dcba0cb17f.jpg" alt="Laundry image"
+                height="300" width="300">
+        </section>
+        <section id="services">
+            <ul>
+                <h3> Our Services </h3>
+                <li><b>Convenience:</b> We pick up and deliver your laundry at your doorstep.</li>
+                <li><b>Quality:</b> Our team ensures the highest standards of cleaning and care.</li>
+                <li><b>Affordability:</b> Competitive pricing without compromising on quality.</li>
+                <li><b>Variety:</b> We handle all types of fabrics and garments.</li>
+                <li><b>Eco-Friendly:</b> We use environmentally friendly detergents and processes.</li>
+                <li><b>Customer Satisfaction:</b> Our job isn’t done until you’re happy.</li>
+            </ul>
+        </section>
+        <section id="price-list">
+            <table border="">
+                <h3> price list</h3>
+                <tr>
+                    <th>service</th>
+                    <th>Price</th>
+                    <th>Detail</th>
+                </tr>
+                <tr>
+                    <td>Wash & Fold (Per Kg)</td>
+                    <td>₹60/Kg</td>
+                    <td>Washed, dried & neatly folded</td>
+                </tr>
+                <tr>
+                    <td>Dry Cleaning (Per Kg)</td>
+                    <td>₹100/Kg</td>
+                    <td>Special care for delicate fabrics</td>
+                </tr>
+                <tr>
+                    <td>Ironing (Per Kg)</td>
+                    <td>₹30/Kg</td>
+                    <td>Professional ironing for crisp finish</td>
+                </tr>
+            </table>
+        </section>
+        <br><br>
+        <section id="booking-form">
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" minlength="2" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" maxlength="10" required>
+                <label for="service">Service:</label>
+                <select id="service" name="service" required>
+                    <option value="wash_fold">Wash & Fold</option>
+                    <option value="dry_cleaning">Dry Cleaning</option>
+                    <option value="ironing">Ironing</option>
+                </select>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Laundry Wallah / Laundry Mart. All rights reserved.</p>
+    </footer>
+</body>
+</html>
